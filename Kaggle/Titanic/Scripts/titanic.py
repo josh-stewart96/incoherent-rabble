@@ -10,7 +10,7 @@ pd.set_option('display.width', 320)
 pd.set_option("display.max_columns", 12)
 
 # Read in the data
-titanic_raw = pd.read_csv("C:/Users/joshs/Documents/Git Repos/incoherent-rabble/Kaggle/Titanic/Data/train.csv")
+titanic_raw = pd.read_csv("C:/Users/joshs/PycharmProjects/incoherent-rabble/Kaggle/Titanic/Data/train.csv")
 print(titanic_raw.head())
 
 # Some summary statistics
