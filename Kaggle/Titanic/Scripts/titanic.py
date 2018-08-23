@@ -2,9 +2,9 @@
 import pandas as pd
 import seaborn as sns
 import matplotlib.pyplot as plt
+from matplotlib import rcParams
 
 # Silly formatting stuff
-from matplotlib import rcParams
 rcParams.update({'figure.autolayout': True})
 pd.set_option('display.width', 320)
 pd.set_option("display.max_columns", 12)
